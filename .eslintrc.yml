@@ -6,7 +6,7 @@ env:
   jest: true
   jquery: true
 extends:
-  - google
+  - crockford
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
@@ -22,5 +22,9 @@ plugins:
 rules:
   quotes:
     - error
-    - double
+    - single
   require-jsdoc: off
+  one-var: off
+  no-undef: off
+  no-use-before-define: off
+  comma-dangle: ['error', 'always']
