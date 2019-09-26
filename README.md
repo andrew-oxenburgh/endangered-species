@@ -5,7 +5,7 @@ Template Project
 1. `typescript`
 1. `storybook`
 1. `bootstrap components`
-1. `eslint`
+1. `eslint` - crockford
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
